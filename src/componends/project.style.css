@@ -1,0 +1,108 @@
+.project-title {
+  width: 100%;
+  text-align: center;
+  height: min-content;
+}
+.project-title h1 {
+  font-family: "Be Vietnam";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 58px;
+
+  color: #f37a7a;
+}
+.project-title img {
+  width: 40px;
+  margin-top: 0%;
+}
+.project-text {
+  width: 100%;
+  text-align: center;
+}
+.project-text p {
+  font-family: "Be Vietnam";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 51px;
+
+  color: #818080;
+}
+
+.projectCardScreen {
+  max-width: 100%;
+  display: grid;
+  grid-template-rows: min-content;
+  grid-template-columns: repeat(var(--grid-valueNumber), var(--grid-valuePer));
+}
+.project-card {
+  border: 2px solid #0d54be;
+  margin: 2%;
+}
+.project-card h1 {
+  font-family: "Be Vietnam";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 51px;
+  color: #626161;
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
+.img img {
+  margin-top: 0%;
+}
+.link {
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: min-content;
+}
+.link img {
+  margin-top: 2%;
+}
+.project-card-text {
+  max-width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+/* .leftBtnSide {
+  width: 100%;
+  background-color: rgb(245, 245, 245);
+  text-align: center;
+  justify-content: center;
+}
+#anglesLeft {
+  font-size: 200%;
+  color: darkgrey;
+}
+.rightBtnSide {
+  width: 100%;
+  background-color: rgb(245, 245, 245);
+  text-align: center;
+  justify-content: center;
+}
+
+#anglesRight {
+  font-size: 200%;
+  color: darkgrey;
+}
+.leftBtnSide button {
+  height: 100%;
+  width: 100%;
+}
+.rightBtnSide button {
+  height: 100%;
+  width: 100%;
+} */
+
+@media (max-width: 860px) {
+  .projectCardScreen {
+    max-width: 100%;
+    display: grid;
+    grid-template-rows: repeat(var(--grid-valueNumber), min-content);
+    grid-template-columns: 100%;
+  }
+}

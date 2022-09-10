@@ -1,0 +1,45 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+.navbar {
+  justify-content: end;
+  text-align: end;
+  margin-right: 7%;
+}
+
+.navbar ul li {
+  display: inline-flex;
+  margin: 2%;
+  font-family: "Be Vietnam";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 25px;
+  line-height: 41px;
+}
+.navbar a {
+  color: black;
+}
+.projectBtn img {
+  width: 20px;
+}
+.navbar a:hover {
+  color: #e84949;
+}
+.projectBtn a {
+  color: #e84949;
+}
+@media (max-width: 860px) {
+  .navbar {
+    margin-top: 0%;
+    justify-content: center;
+    text-align: center;
+    margin-right: 0%;
+    background: rgb(206, 206, 206);
+  }
+  .navbar ul li {
+    font-size: 30px;
+    color: #e84949;
+    margin: 2%;
+  }
+}
