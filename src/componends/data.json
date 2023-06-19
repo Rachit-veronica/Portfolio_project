@@ -1,9 +1,15 @@
 [
   {
-    "img": "https://raw.githubusercontent.com/Rachit-veronica/api/master/img/resumePhoto.png",
-    "title": "Protfolio",
+    "img": "https://raw.githubusercontent.com/Rachit-veronica/api/master/img/BabaBanarsiPhoto.png",
+    "title": "E-Commerce",
+    "link": "http://baba-banarsi-web.s3-website.ap-south-1.amazonaws.com/",
+    "about": "I have experience in developing a responsive e-commerce website. In which I have implemented REACT JS, HTML, CSS, javascript, and bootstrap and Deploying on AWS S3 Bucket"
+  },
+  {
+    "img": "video",
+    "title": "Portfolio",
     "link": "http://rachitprotfolio.s3-website.ap-south-1.amazonaws.com/",
-    "about": "I worked on Protfolio website that give you my all info and expercence. In which I have implemented REACT JS, HTML, CSS and javascript and Deploying on AWS S3 Bucket"
+    "about": "I worked on portfolio website that give you my all info and experience. In which I have implemented REACT JS, HTML, CSS and javascript and Deploying on AWS S3 Bucket"
   },
 
   {
@@ -11,12 +17,5 @@
     "title": "Trends Of Movie",
     "link": "https://trendsofmovie.netlify.app/",
     "about": "I worked on a website that facilitates downloading various movies fast and conveniently. In which I have implemented HTML, CSS and Js only"
-  },
-
-  {
-    "img": "https://raw.githubusercontent.com/Rachit-veronica/api/master/img/BabaBanarsiPhoto.png",
-    "title": "E-Commerce",
-    "link": "http://baba-banarsi-web.s3-website.ap-south-1.amazonaws.com/",
-    "about": "I have experience in developing a responsive e-commerce website. In which I have implemented REACT JS, HTML, CSS, javascript, and bootstrap and Deploying on AWS S3 Bucket"
   }
 ]

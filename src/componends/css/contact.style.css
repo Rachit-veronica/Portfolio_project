@@ -1,0 +1,115 @@
+.contact-text {
+  margin-bottom: 5%;
+}
+.contact-text h1 {
+  font-family: "Be Vietnam";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 58px;
+
+  color: #f37a7a;
+}
+.contactBody {
+  width: 100%;
+  display: grid;
+  grid-template-rows: min-content;
+  grid-template-columns: 50% 50%;
+}
+.contact-img {
+  margin-top: 0%;
+}
+.contact-img img {
+  margin-top: 2%;
+  width: 100%;
+}
+.form-screen {
+  max-width: 100%;
+  text-align: center;
+  justify-content: center;
+  height: 100%;
+}
+.form-screen input {
+  margin-top: 10%;
+  width: 60%;
+  height: 50px;
+}
+.form-screen textarea {
+  margin-top: 10%;
+  width: 60%;
+  height: 100px;
+}
+.submitBtn button {
+  margin-top: 10%;
+  width: 20%;
+  height: 40px;
+  font-size: 22px;
+  background-color: #e84949;
+  color: white;
+}
+
+.submitBtn button:hover {
+  background-color: white;
+  color: #e84949;
+}
+/* #email {
+  margin-top: 20%;
+  width: 50%;
+  height: 40px;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.35);
+  border-radius: 8px;
+}
+
+#message {
+  margin-top: 18%;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.35);
+  border-radius: 8px;
+  width: 50%;
+  height: 100px;
+  overflow: auto;
+  left: 0%;
+} */
+#contactBtn {
+  margin-top: 5%;
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.35);
+  border-radius: 8px;
+}
+.contactBtnBody {
+  width: 120px;
+  display: grid;
+  grid-template-rows: min-content min-content;
+  grid-template-columns: 66% 34%;
+}
+.contactBtnText p {
+  font-family: "Be Vietnam";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+}
+.contactImg img {
+  width: 30px;
+}
+/* #contactBtn {
+  margin-top: 5%;
+  width: 150px;
+  height: 50px;
+  text-align: center;
+}
+#contactBtn img {
+    position: relative;
+  margin-top: 0%;
+  width: 40px;
+} */
+
+@media (max-width: 860px) {
+  .contactBody {
+    width: 100%;
+    display: grid;
+    grid-template-rows: min-content min-content;
+    grid-template-columns: 100%;
+  }
+}

@@ -1,29 +1,37 @@
 import "./App.css";
-import Navbar from "./componends/Navbar";
-import "./componends/Navbar.style.css";
-import Objective from "./componends/objective";
-import "./componends/objective.css";
-import Skills from "./componends/Skills";
-import "./componends/skills.style.css";
-import Project from "./componends/Project";
-import "./componends/project.style.css";
-import Contact from "./componends/Contact";
-import "./componends/contact.style.css";
-import Footer from "./componends/Footer";
-import "./componends/footer.style.css";
-import Experience from "./componends/Experience";
-import "./componends/experience.style.css";
+import React, { useState } from "react";
+import Navbar from "./componends/javascript/Navbar";
+import Objective from "./componends/javascript/objective";
+import Skills from "./componends/javascript/Skills";
+import Project from "./componends/javascript/Project";
+import Contact from "./componends/javascript/Contact";
+import Footer from "./componends/javascript/Footer";
+import Experience from "./componends/javascript/Experience";
+import Popup from "./componends/javascript/Popup";
+import ProjectPopUp from "./componends/javascript/ProjectPopUp";
 
 function App() {
+  const [showPopup, setShowPopup] = useState(false);
+
+  const togglePopup = () => {
+    setShowPopup(!showPopup);
+  };
+  const openPopup = () => {
+    togglePopup();
+  };
+
   return (
     <div className="App">
       <Navbar />
       <Objective />
       <Skills />
       <Experience />
-      <Project />
+      <Project btnWorking={openPopup} />
       <Contact />
       <Footer />
+      {showPopup && (
+        <Popup content=<ProjectPopUp /> handleClose={togglePopup} />
+      )}
     </div>
   );
 }
