@@ -1,21 +1,56 @@
 [
   {
-    "img": "https://raw.githubusercontent.com/Rachit-veronica/api/master/img/BabaBanarsiPhoto.png",
-    "title": "E-Commerce",
-    "link": "http://baba-banarsi-web.s3-website.ap-south-1.amazonaws.com/",
-    "about": "I have experience in developing a responsive e-commerce website. In which I have implemented REACT JS, HTML, CSS, javascript, and bootstrap and Deploying on AWS S3 Bucket"
+    "img": "",
+    "video": "",
+    "title": "Food Delivery Website",
+    "webLink": "https://food-delivery-website-57819.web.app/",
+    "githubLink": "https://github.com/Rachit-veronica/Food_Project",
+    "about": "Created a user account system that allows registered users to save their preferences and order history for future orders.",
+    "aboutPoint": [
+      "Implemented <strong>CRUD</strong> (Create, Read, Update, Delete) operations to allow users to create and manage their accounts, view and edit their profile information, and manage their past and current orders.",
+      "Utilized modern web technologies such as <strong>HTML</strong>, <strong>CSS</strong>, <strong>JavaScript</strong>, and a front-end framework like <strong>React js</strong> to create an engaging and interactive website.",
+      "Developed a <strong>responsive</strong> layout that adjusts to fit various screen sizes, making the website accessible on desktop, laptop, tablet, and mobile devices."
+    ],
+    "skill": [
+      "React",
+      "Html",
+      "Css",
+      "Sass",
+      "React js Styled Components",
+      "Javascript",
+      "CRUD Operation",
+      "Api",
+      "Figma"
+    ]
   },
   {
-    "img": "video",
+    "img": "",
+    "video": "",
     "title": "Portfolio",
-    "link": "http://rachitprotfolio.s3-website.ap-south-1.amazonaws.com/",
-    "about": "I worked on portfolio website that give you my all info and experience. In which I have implemented REACT JS, HTML, CSS and javascript and Deploying on AWS S3 Bucket"
+    "webLink": "https://portfolio-cd1bf.web.app/",
+    "githubLink": "https://github.com/Rachit-veronica/Portfolio_project",
+    "about": "Developed a professional portfolio website using modern web technologies to showcase skills, experience, and achievements in a clear and concise manner.",
+    "aboutPoint": [
+      "Created a dedicated section to <strong>showcase</strong> previous <strong>projects</strong> in software development, web design, and data analysis, with detailed descriptions, screenshots, and related resources.",
+      "Optimized the website to be fully <strong>responsive</strong> across all devices, including desktops, laptops, tablets, and smartphones.",
+      "Demonstrated strong technical skills in web development, including <strong>React js</strong>, <strong>HTML</strong>, <strong>Css</strong>, <strong>Javascript</strong>, <strong>API</strong>."
+    ],
+    "skill": ["React", "Html", "Css", "Javascript", "Api", "Figma"]
   },
 
   {
-    "img": "https://github.com/Rachit-veronica/api/blob/master/img/trendOfMovie.png?raw=true",
-    "title": "Trends Of Movie",
-    "link": "https://trendsofmovie.netlify.app/",
-    "about": "I worked on a website that facilitates downloading various movies fast and conveniently. In which I have implemented HTML, CSS and Js only"
+    "img": "",
+    "video": "",
+    "title": "Movie Download Website",
+    "webLink": "https://trendsofmovie.netlify.app/",
+    "githubLink": "https://github.com/Rachit-veronica/trends_of_movie_project",
+    "about": "Developed a dynamic website that displays current trending movies, popular movies, and upcoming movies.",
+    "aboutPoint": [
+      "Designed a <strong>responsive</strong> layout that adjusts to fit various screen sizes, making the website accessible on desktop, laptop, tablet, and mobile devices.",
+      "Implemented a <strong>search functionality</strong> allowing users to search for movies based on title, genre, or release year.",
+      "Utilized modern web technologies such as <strong>HTML</strong>, <strong>CSS</strong>, and <strong>JavaScript</strong> to create an engaging and interactive website.",
+      "Utilized an external <strong>API</strong> to <strong>fetch</strong> and display movie data, providing a seamless user experience with real-time updates"
+    ],
+    "skill": ["Html", "Css", "Javascript", "Api"]
   }
 ]

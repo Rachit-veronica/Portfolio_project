@@ -46,7 +46,7 @@
 }
 .projectURL {
 }
-.projectURL button {
+.projectURL a button {
   margin-top: 3%;
   margin-left: 3%;
   width: 20%;
@@ -56,6 +56,7 @@
   color: #f37a7a;
   background-color: black;
   cursor: pointer;
+  /* text-decoration: none; */
 }
 .projectURL button:hover {
   color: white;
@@ -88,9 +89,15 @@
 .projectSkill ul {
   margin-left: 4%;
   max-width: 90%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin-bottom: 2%;
 }
 .projectSkill ul li {
   margin: 2%;
+}
+strong {
+  color: #474646;
 }
 @media (max-width: 860px) {
   .popupInnerBody {

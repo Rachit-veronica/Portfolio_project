@@ -1,18 +1,10 @@
 import React, { useEffect, useRef, useState } from "react";
-import skillsImage from "../image/skills-image.png";
 import linkImage from "../image/project/viewMore.png";
 import "../../componends/css/project.style.css";
-import Popup from "../javascript/Popup";
 import data from "../data.json";
-
-// import jsonData from "./data.json";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faAnglesRight } from "@fortawesome/free-solid-svg-icons";
-import { faAnglesLeft } from "@fortawesome/free-solid-svg-icons";
 import icon from "../image/projectH1Icon.png";
-import video from "../video/video.mp4";
 
-function Project({ btnWorking }) {
+function Project({ btnWorking, indexVlu }) {
   const videoRef = useRef(null);
 
   const arrayNumberValue = data.length;
@@ -35,6 +27,7 @@ function Project({ btnWorking }) {
 
   const LinkBtn = (e, index) => {
     e.preventDefault();
+    indexVlu(index);
     btnWorking(true);
     console.log(index);
   };

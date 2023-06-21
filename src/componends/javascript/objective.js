@@ -1,8 +1,7 @@
 import React, { useState } from "react";
 import photo from "../image/photo.jpg";
-import resume from "../image/Resume.pdf";
+import resume from "../Resume/Rachit_Resume.pdf";
 import "../../componends/css/objective.css";
-
 
 function Objective() {
   const hireFunction = () => {

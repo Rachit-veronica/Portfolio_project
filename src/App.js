@@ -12,6 +12,7 @@ import ProjectPopUp from "./componends/javascript/ProjectPopUp";
 
 function App() {
   const [showPopup, setShowPopup] = useState(false);
+  const [indexVlu, setIndexVlu] = useState("");
 
   const togglePopup = () => {
     setShowPopup(!showPopup);
@@ -20,17 +21,25 @@ function App() {
     togglePopup();
   };
 
+  const indexfunc = (data) => {
+    console.log("indexValue", data);
+    setIndexVlu(data);
+  };
+
   return (
     <div className="App">
       <Navbar />
       <Objective />
       <Skills />
       <Experience />
-      <Project btnWorking={openPopup} />
+      <Project btnWorking={openPopup} indexVlu={indexfunc} />
       <Contact />
       <Footer />
       {showPopup && (
-        <Popup content=<ProjectPopUp /> handleClose={togglePopup} />
+        <Popup
+          content=<ProjectPopUp indexData={indexVlu} />
+          handleClose={togglePopup}
+        />
       )}
     </div>
   );
