@@ -6,6 +6,7 @@ import bootstrap from "../image/bootstrap.png";
 import skillsImage from "../image/skills-image.png";
 import react from "../image/react.png";
 import sass from "../image/sass.png";
+import styleImg from "../image/styleComponents.png";
 import "../../componends/css/skills.style.css";
 
 function Skills() {
@@ -34,6 +35,9 @@ function Skills() {
                 </li>
                 <li>
                   <img src={sass} />
+                </li>
+                <li>
+                  <img src={styleImg} />
                 </li>
                 <li>
                   <img src={bootstrap} />

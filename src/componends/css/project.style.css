@@ -50,8 +50,9 @@
   margin-top: 0%;
   margin-bottom: 0%;
 }
-.img img {
+.projectImg img {
   margin-top: 0%;
+  border: 1px solid #626161;
 }
 .link {
   width: 100%;

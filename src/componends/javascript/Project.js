@@ -5,8 +5,6 @@ import data from "../data.json";
 import icon from "../image/projectH1Icon.png";
 
 function Project({ btnWorking, indexVlu }) {
-  const videoRef = useRef(null);
-
   const arrayNumberValue = data.length;
   console.log(Math.trunc(arrayNumberValue));
   const arrayPerValue = 100 / arrayNumberValue;
@@ -20,10 +18,6 @@ function Project({ btnWorking, indexVlu }) {
     document.documentElement.style.setProperty("--grid-valuePer", value2);
   }
   setGridPerValue(`${arrayPerValue}%`);
-
-  useEffect(() => {
-    videoRef.current.play();
-  }, []);
 
   const LinkBtn = (e, index) => {
     e.preventDefault();
@@ -47,16 +41,8 @@ function Project({ btnWorking, indexVlu }) {
             <>
               <div className="project-card">
                 <h1>{data[index].title}</h1>
-                <div className="img">
-                  {/* <img src={item.img} /> */}
-                  <video
-                    ref={videoRef}
-                    autoPlay
-                    muted
-                    style={{ width: "100%" }}
-                  >
-                    <source src={data[index].img} type="video/mp4" />
-                  </video>
+                <div className="projectImg">
+                  <img src={data[index].img} />
                 </div>
                 <div className="project-card-text">
                   <p>{data[index].about}</p>
