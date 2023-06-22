@@ -58,6 +58,7 @@
   cursor: pointer;
   /* text-decoration: none; */
 }
+
 .projectURL button:hover {
   color: white;
   background-color: black;
@@ -126,5 +127,11 @@ strong {
   }
   .projectSkill ul {
     max-width: 93%;
+  }
+  .projectURL a button {
+    width: 40%;
+  }
+  strong {
+    color: #474646;
   }
 }

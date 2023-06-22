@@ -136,3 +136,13 @@
 .closeBtn button:hover {
   color: white;
 }
+@media (max-width: 860px) {
+  .closeBtn button {
+    width: 15%;
+  }
+}
+@media (max-width: 520px) {
+  .closeBtn button {
+    width: 20%;
+  }
+}

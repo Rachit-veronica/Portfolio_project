@@ -6,7 +6,9 @@ import "../../componends/css/objective.css";
 function Objective() {
   const hireFunction = () => {
     if (window.screen.width > 860) {
-      window.scrollTo({ top: 2750, left: 0, behavior: "smooth" });
+      window.scrollTo({ top: 2950, left: 0, behavior: "smooth" });
+    } else if (window.screen.width > 520) {
+      window.scrollTo({ top: 4750, left: 0, behavior: "smooth" });
     } else {
       window.scrollTo({ top: 4670, left: 0, behavior: "smooth" });
     }

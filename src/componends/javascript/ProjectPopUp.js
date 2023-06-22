@@ -16,6 +16,8 @@ const ProjectPopUp = ({ indexData }) => {
   // const renderedSkillList = data[indexData].skill.map((item, index) => (
   //   <li key={index}>{item}</li>
   // ));
+
+
   return (
     <>
       <div className="popupOutterBody">
@@ -23,7 +25,7 @@ const ProjectPopUp = ({ indexData }) => {
         <div className="popupInnerBody">
           <div className="projectVideo">
             <video ref={videoRef} autoPlay muted>
-              <source src={data[indexData].img} type="video/mp4" />
+              <source src={data[indexData].video} type="video/mp4" />
             </video>
           </div>
           <div className="midLine">

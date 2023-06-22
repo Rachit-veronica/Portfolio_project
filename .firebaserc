@@ -1,5 +1,9 @@
 {
   "projects": {
-    "default": "portfolio-cd1bf"
-  }
+    "default": "portfolio-cd1bf",
+    "y": "portfolio-cd1bf",
+    "main": "portfolio-cd1bf"
+  },
+  "targets": {},
+  "etags": {}
 }
