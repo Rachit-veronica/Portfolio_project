@@ -16,6 +16,7 @@
   font-weight: 200;
   font-size: 25px;
   line-height: 41px;
+  cursor: pointer;
 }
 .navbar a {
   color: black;
